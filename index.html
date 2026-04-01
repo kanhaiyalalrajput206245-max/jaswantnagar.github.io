@@ -1,290 +1,409 @@
-
 <html>
-    <head>
-        <title>css & html</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="w3.css" type="text/css">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-        <link href="cssfile.css" type="text/css" rel="stylesheet">
-        <style>
-            #th{background-image:linear-gradient(red,yellow,blue,green);
-                background-repeat:no-repeat;
-                background-position:;
-                text-shadow:20px 6px 10px red;
-                font-size:20px;
-                border-radius:20px;
-                border-width:5px solid red;
-           			 }
-           		div select:hover{background:red;}
-            .p{color:green; text-decoration:underline; text-transform:uppercase; letter-spacing:5px; font-weight:400; word-spacing:50px; text-shadow:20px 4px 10px red;}
-            *{margin:5px;}
-            .ther{animation:blink is infinite;}
-           /* .ramwas{background-attachment:scroll; background-image:radial-gradient(white,red,yellow,green,pink,skyblue); background-repeat:no-repeat;} use please*/
-              .ramwas{background-attachment:scroll; background-image:linear-gradient(white,red,yellow,green,pink,skyblue); background-repeat:no-repeat;}
-			.bike{font-weight:bold; font-family:arial; animation:blink 0.5s infinite;}
-			@keyframes bike{
-			0% { opacity :1 ;}
-			50% { opacity: 0;}
-			100% { opacity: 1;}
-			}
-			.blink{font-weight:100; font-size:15px; color:blue; animation: blink 0.5s infinite;}
-				@keyframes blink{
-					0% {opacity :1 ;}
-					50% {opacity :0 ;}
-					100% {opacity :1 ;}
-				
-				}
-			ol li:hover{background:pink; color:blue;}
-			table td:hover{background:red; color:white;}
-			table tr:hover{background:cyan;}
-			.thet{display:block;}
-	       </style>
-    </head>
-    <body class="ramwas">
-            <h1>This is a normal page information and css and w3css and HTML </h1>
-            <div id="th" class="w3-card w3-yellow">
-                <ol type="I">
-                    <li>Tea</li>
-                    <li>coffe</li>
-                        <ul type="square">
-                            <li>Asam</li>
-                            <li>himanchal pradesh</li>
-                        </ul>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radha Rani </title>
+    <link rel="icon" href="https://gallerypng.com/wp-content/uploads/2024/05/ai-beautiful-radha-png-image-750x750.png"
+        type="png">
+    <link rel="stylesheet" href="w3.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <link href="cssfile.css" type="text/css" rel="stylesheet">
+    <style>
+        #th {
+            background-image: linear-gradient(red, yellow, blue, green);
+            background-repeat: no-repeat;
+            background-position: ;
+            text-shadow: 20px 6px 10px red;
+            font-size: 20px;
+            border-radius: 20px;
+            border-width: 5px solid red;
+        }
+
+        div select:hover {
+            background: red;
+        }
+
+        .p {
+            color: green;
+            text-decoration: underline;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-weight: 400;
+            word-spacing: 50px;
+            text-shadow: 20px 4px 10px red;
+        }
+
+        * {
+            margin: 5px;
+        }
+
+        .ther {
+            animation: blink is infinite;
+        }
+
+        /* .ramwas{background-attachment:scroll; background-image:radial-gradient(white,red,yellow,green,pink,skyblue); background-repeat:no-repeat;} use please*/
+        .ramwas {
+            background-attachment: scroll;
+            background-image: linear-gradient(white, red, yellow, green, pink, skyblue);
+            background-repeat: no-repeat;
+        }
+
+        .bike {
+            font-weight: bold;
+            font-family: arial;
+            animation: blink 0.5s infinite;
+        }
+
+        @keyframes bike {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .blink {
+            font-weight: 100;
+            font-size: 15px;
+            color: blue;
+            animation: blink 0.5s infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+
+        }
+
+        ol li:hover {
+            background: pink;
+            color: blue;
+        }
+
+        table td:hover {
+            background: red;
+            color: white;
+        }
+
+        table tr:hover {
+            background: cyan;
+        }
+
+        .thet {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="ramwas">
+    <h1>This is a normal page information and css and w3css and HTML </h1>
+    <div id="th" class="w3-card w3-yellow">
+        <ol type="I">
+            <li>Tea</li>
+            <li>coffe</li>
+            <ul type="square">
+                <li>Asam</li>
+                <li>himanchal pradesh</li>
+            </ul>
+        </ol>
+    </div>
+    <marquee direction="right">
+        <h5 class="bike">NEW COURSE START </h5>
+    </marquee>
+    <marquee direction="left">
+        <h5 class="bike">PLEASE JOIN O LEVEL CONDIDATE</h5>
+    </marquee>
+    <p class="p">this is a o level programmer and codder</p>
+    <div>
+        <h2> O level<sup class="blink">NEW BATCH </sup></h2>
+    </div>
+    <div class="w3-border w3-card-4 w3-center w3-yellow w3-circle">
+        <h1 style="animation:blink 10s infinite; color:red;">IMPORTENT QUETIONS AND ANSWER </h1>
+    </div>
+    <div class="w3-class w3-red w3-round-xxlarge w3-center w3-card-4">
+        <h2> important notes and information o level learning </h2>
+    </div>
+    <div class="w3-yellow w3-round-large w3-hover-blue w3-hover-text-yellow w3-text-cyan">
+        <h3> impotant notes m1 <h3>
+    </div>
+    <div class="w3-yellow w3-round w3-panel">
+        <ul type="circle">
+            <li>theroy and sindhant</li>
+            <li> important full forms and rivision </li>
+    </div>
+    <div class="w3-green w3-panel-large w3-text-red">
+        <ul type="square">
+            <li>course of o level 👇 </li>
+            <ol type="A">
+                <li> <a href="M1.html"> o level m1 course join please 🙏✍️ </a></li>
+                <li><a href="#">o level m2 course join please🙏✍️</a></li>
+            </ol>
+            <li>succes✅ hone ke liye mehanat karni padti hai🫵 </li>
+        </ul>
+        <div class="w3-yellow">
+            <p style="text-align:right;"> <sup style="animation:blink 1s infinite; ">RADHE RADHE 🙏</sup></p>
+
+        </div>
+        <table
+            style="background:yellow; color:red; border-collapse:collapse; align:right;width:50%;border:3px solid blue;"
+            border="1px">
+            <caption class="w3-blue w3-padding w3-border w3-round">IP<sub>V4</sub>Address Class:</caption>
+            <tr>
+                <th>Class A</th>
+                <td>1 To 127</td>
+            </tr>
+            <tr>
+                <th>Class B </th>
+                <td>128 To 191 </td>
+            </tr>
+            <tr>
+                <th>Class C </th>
+                <td>192 To 223 </td>
+            </tr>
+            <tr>
+                <th>Class D </th>
+                <td>224 To 239 <q><b>MultiCasting Group</b></q></td>
+            </tr>
+            <tr>
+                <th>Class E </th>
+                <td>240 To 255 <q><b>Future use </b></q></td>
+            </tr>
+
+        </table>
+
+        <table class="w3-card-4" id="thet"
+            style="background:yellow; color:red; width:50%;border-collapse:collapse; border:3px solid blue;"
+            border="1px">
+            <caption class="w3-card-4 w3-red w3-text-white w3-margin">hardware type division's </caption>
+            <tr>
+                <th>Input</th>
+                <th>Process</th>
+                <th>Output</th>
+                <th>Storage</th>
+            </tr>
+            <tr>
+                <td>keyboard</td>
+                <td>microprocessor</td>
+                <td>monitor</td>
+                <td>floppy Disk</td>
+            </tr>
+            <tr>
+                <td>MOUSE</td>
+                <td>RAM/ROM</td>
+                <td>printer</td>
+                <td>HARD DISK</td>
+            </tr>
+            <tr>
+                <td>OCR</td>
+                <td>MOTHERBOARD</td>
+                <td>SPEAKER</td>
+                <td>OPTICAL Disk</td>
+            </tr>
+            <tr>
+                <td>BCR</td>
+                <td rowspan="13"></td>
+                <td>PLOTER</td>
+                <td>CD, DVD, BRD</td>
+            </tr>
+            <tr>
+                <td>OMR</td>
+                <td>PROJECTOR</td>
+                <td>Pen Drive</td>
+            </tr>
+            <tr>
+                <td>Micr</td>
+                <td rowspan="11"></td>
+                <td>Zin Drive</td>
+            </tr>
+            <tr>
+                <td>styles</td>
+                <td>Tap Drive</td>
+            </tr>
+            <td>Scanner</td>
+            <td>Memory Card</td>
+            </tr>
+            <tr>
+                <td>Joy Stick</td>
+            </tr>
+            <tr>
+                <td>webcom</td>
+            </tr>
+            <tr>
+                <td>light Pen</td>
+            </tr>
+            <tr>
+                <td>Track Ball</td>
+            </tr>
+            <tr>
+                <td>TochPad</td>
+            </tr>
+            <tr>
+                <td>Bio Matrics</td>
+            </tr>
+            <tr>
+                <td>Micro Phone</td>
+            </tr>
+            <tr>
+                <td>Touch Screen</td>
+            </tr>
+        </table>
+
+
+    </div>
+    <h2 class="w3-red w3-text-yellow w3-card-4"> O level M1 ✍️👇<h2>
+            <ul type="square">
+                <li class="w3-border w3-round">all chapter short & fullforms </li>
+                <ol type="1">
+                    <li>CPU = CONTROL PROCCESSER UNIT</li>
+                    <li>ALU = ARTHMATIC LOGICAL UNIT</li>
+                    <li>MU = Memory Unit</li>
+                    <li>ICT = Information and comminication Technology</li>
+                    <li>GUI = graphical user interface</li>
+                    <li>OMR = optical mark reader</li>
+                    <li>OCR = optical character recognication </li>
+                    <li>MICR = magenetic ink character recognication</li>
+                    <li>PDP = persnal data processor</li>
+                    <li> LSI= large scale integration</li>
+                    <li>VLSI = very large scale intergration</li>
+                    <li>AI = artificial intelligence</li>
+                    <li>BCR = bar code reader </li>
+                    <li>CRT = cathode ray tube (monitor)</li>
+                    <li>LCD = lequid crystal display</li>
+                    <li>LED = light emmiting diode(semi condcator device)</li>
+                    <li>ROM = read only memory</li>
+                    <li>BIOS = basic input output system</li>
+                    <li>PROM = programmable read only memory</li>
+                    <li>EPROM = erassble programmable read only memory</li>
+                    <li>EEPROM = electronic erassble programmable read only memory</li>
+                    <li>CD = compact disk (600-700 mb store capicity)</li>
+                    <li>DVD = digital varsatile disk(philips and sony by 1995. dvd optical disk ka research.<q>max
+                            store: 4.7GB</q> )</li>
+                    <li>BRD = blu ray disk (25 GB) and double blu ray disc(50 gb store)</li>
+                    <li>WWW = world wide web ( not owner but authriser tim berners lee)</li>
+                    <li>TCP = transmission control protocol</li>
+                    <li>IP = internet protocol </li>
+                    <li>ARPANET = <q>advance research project agency network</q> created by defence department start
+                        1974 LAN Arpanet to joint.</li>
+                    <li>LAN = local area network </li>
+                    <li>WAN = wide area network </li>
+                    <li>MAN = metropolitan area network</li>
+                    <li>PAN = Personal local area network</li>
+                    <li>NIC = network interface card</li>
+                    <li>URL = Uniform resourece locator</li>
+                    <li>HTML = hyper text markup language </li>
+                    <li>CSS = casecading style sheets </li>
+                    <li>DNS = doman naming system</li>
+                    <li>ISP = internet service provider </li>
+                    <li>HTTP = hyper text transfer protocol <q>port 80</q></li>
+                    <li>HTTPs = hyper text transfer protocol secure <q>Port 443</q></li>
+                    <li>FTP = file transfer protocol (port 21)</li>
+                    <li>POP<sub>3</sub> = post office protocol (TCP port worked port 110 <q>mail transfer clint
+                            software</q>)</li>
+                    <li>SMTP = simple mail transfer protocol (port 25 <q>mail send</q>)</li>
+                    <li>UDP = user datagram protocol(not check data desination recieve or not recieve )</li>
+                    <li>PPP = point to point protocol (2 nodes with direct relation )</li>
+                    <li>TELNET = telnet protocol (one computer to two computer conect <q>Remote login </q>Port 23</li>
+                    <li>MAC = media access control (phycal and hardware address)</li>
+                    <li>IMEI = international mobile equipment indenty(15 or 17 digit code)</li>
+                    <li>CIER = central equipment indenty register(IMEI by blocked )</li>
+                    <li>IMAP = internet massage access protocol (web based mail recieve port 143 )</li>
+                    <li>CC = corban copy (send mail all show person )</li>
+                    <li>BCC = blind corban copy (send mail show only send person </li>
+                    <li>ORS = online registration system (ehospital)</li>
+                    <li>IRCTC = indian railway catering and tourism corporation </li>
+                    <li>UTS= unreserved ticketing system(1 november 2014 lonch railway mantralaya)</li>
+                    <li>ODP = out patien Department </li>
+                    <li>UMANG = unified mobile app for new age governance (13 language availble lounch november 2017
+                        electronic and information technology mantralaya and Negd by publish)</li>
+                    <li>NeGD = national e-governance Division </li>
+                    <li>IVR = Intractive Voice Response</li>
+                    <li>OTP = one time password (10 minuts only)</li>
+                    <li>QR = quick response code (first 1994 japani company denso wave by disigned)</li>
+                    <li>UPI = unifiead payment interface(UPI NPCI by 11 april 2016 mumbai RBI by Governance DR. raghuram
+                        ji rajan by lounch )</li>
+                    <li>NPCI = national payment corporation of india</li>
+                    <li>AEPS = adhar enable payment system </li>
+                    <li>USSD = unstructured supplymentory service data ( start noveber 2012 GSM protocol. code *99#)
+                    </li>
+                    <li>SMS = short massage service </li>
+                    <li>CVV = card verification value</li>
+                    <li>POS = point of sell (start 1879 by jems ritty bill use thermal printer)</li>
+                    <li>NEFT = national electronic fund transfer (nation wide payment system start november 2005 RBI
+                        through fund transfer limit 16 december 2019 ko 24/7 kar di thi )</li>
+                    <li>RBI = reserve bank of india</li>
+                    <li>IFSC = indian financial service code<q>11 digital code</q></li>
+                    <li>RTGS = real time gross settlement(start march 2014 RBI through<b> minimum amount 2 lakh max no
+                            limit </b>morning 8am to evening 6pm service availble<q>2<sup>nd</sup> saturday and
+                            4<sup>th</sup> saturday holiday</q></li>
+                    <li>IMPS = immidiat payment service (24/7 availble NPCI by 22 november 2010 lounch RBI authority)
+                    </li>
+                    <li>PPI = prepaid payment instrument issuers ( money transfer authority recieved 2 type fund
+                        transfer <q>1 Baneficiary - name , ac num,ifsc and 2 . MMID or mobile no.</q>)</li>
+                    <li>MMID = mobile money identyfier(7 digit bank by created )</li>
+                    <li>NASSCOM = national association of software and service compnies (futured skill apgrad one
+                        platform lounch 19 february 2018 )</li>
+                    <li>IOT =introduction to internet or things (phycal object network )</li>
+                    <li>CMS = CONTENT MANGEMENT SYSTEM</li>
+                    <li>IP<sub>V4</sub>Address = 172.16.254.1</li>
+                    <li>IP<sub>V6</sub>Address = 2001:odb8:0000:0042:0000:8a2e:037o:7334</li>
+                    <li>Mac Address = 80-9E-1D-10-2D-89 , 50:5E:2D:10:4D:28 , 10.2E.2D.10.7D.58 <q>Physical Address</q>
+                    </li>
                 </ol>
-            </div>
-            <marquee direction="right"><h5 class="bike">NEW COURSE START </h5></marquee>
-            <marquee direction="left"><h5 class="bike">PLEASE JOIN O LEVEL CONDIDATE</h5></marquee>
-            <p class="p">this is a o level programmer and codder</p>
-			<div><h2> O level<sup class="blink">NEW BATCH </sup></h2></div>
-			<div class="w3-border w3-card-4 w3-center w3-yellow w3-circle">
-			<h1  style="animation:blink 10s infinite; color:red;">IMPORTENT QUETIONS AND ANSWER </h1>
-			</div>
-			<div class="w3-class w3-red w3-round-xxlarge w3-center w3-card-4">
-	<h2> important notes and information o level learning </h2>
-	</div>
-	<div class="w3-yellow w3-round-large w3-hover-blue w3-hover-text-yellow w3-text-cyan">
-	<h3> impotant notes m1 <h3>
-	</div>
-	<div class="w3-yellow w3-round w3-panel">
-		<ul type="circle">
-			<li>theroy and sindhant</li>
-			<li> important full forms and rivision </li>
-	</div>
-	<div class="w3-green w3-panel-large w3-text-red">
-		<ul type="square">
-			<li>course of o level 👇 </li>
-				<ol type="A">
-					<li> <a href="M1.html"> o level m1 course join please 🙏✍️ </a></li>
-					<li><a href="#">o level m2 course join please🙏✍️</a></li>
-				</ol>
-			<li>succes✅ hone ke liye mehanat karni padti hai🫵 </li>	
-	</ul>
-	<div class="w3-yellow">
-	<p style="text-align:right;">	<sup style="animation:blink 1s infinite; ">RADHE RADHE 🙏</sup></p>
-		
-	</div>
-	<table style="background:yellow; color:red; border-collapse:collapse; align:right;width:50%;border:3px solid blue;" border="1px">
-				<caption class="w3-blue w3-padding w3-border w3-round">IP<sub>V4</sub>Address Class:</caption>
-				<tr>
-					<th>Class A</th><td>1 To 127</td>
-				</tr>
-				<tr>
-					<th>Class B </th><td>128 To 191 </td>
-				</tr>
-				<tr>
-					<th>Class C </th><td>192 To 223 </td>
-				</tr>
-				<tr>
-					<th>Class D </th><td>224 To  239 <q><b>MultiCasting Group</b></q></td>
-				</tr>
-				<tr>
-					<th>Class E </th><td>240 To  255 <q><b>Future use </b></q></td>
-				</tr>
+            </ul>
+            <h3 style="animation:blink 1s infinite; color:red; width:50%; font-weight:bold;"> ports and working port
+                number and defination</h3>
+            <dl>
+                <dt>telnet</dt>
+                <dd>port 23 work and remote login and server computer runing</dd>
+                <dt>SMTP</dt>
+                <dd>SIMPLE MAIL TRANSFER PROTOCOL </dd>
+                <p style="display:inline-block;"><b> More Protocol</b> </p><a href="SAVE.html"
+                    style="animation:blink 0.5s infinite;">👉click here...</a>
+            </dl>
+            <p>importent notes downlo</p>
+            <details>
+                <summary>fill inforamtion </summary>
+                <option>radhe</option>
+                <option>shyam </option>
+                <option>kanhaiya</option>
+                <option>ankush</option>
+            </details>
+            <h3>MORE INFORMATION AND JOB RELATED THE VIRISON THE PAGE ARE U FIND </h3>
+            <div>
+                <select name="navigation" size="1">
+                    <option>O LEVEL </option>
+                    <option>FIND AND REPLACE</option>
+                    <option>REPLACE</option>
+                    <option>JAI HIND</option>
+                </select>
 
-			</table>
+                <div style="color:red; background:yellow; margin:15px;">
+                    <h2 style="color:blue;">Download !</h2>
+                    <ol><b>
+                            <li><a href="https://drive.google.com/file/d/1XF1_NuwcWyLwpSv0PpwzQk9LWiihcOe-/view">Adobe
+                                    Photoshop 7.0</a></li>
+                            <li><a href="https://www.w3schools.com/w3css/w3css_downloads.asp">W3 CSS Download</a></li>
+                            <li><a href="https://cdnjs.com/libraries/font-awesome">Icon Add Css Download</a></li>
+                            <li><a href="https://angularjs.org/">Angular Js Framwork Download </a></li>
+                        </b>
+                    </ol>
+                </div>
+</body>
 
-	<table class="w3-card-4" id="thet"style="background:yellow; color:red; width:50%;border-collapse:collapse; border:3px solid blue;" border="1px">
-		<caption class="w3-card-4 w3-red w3-text-white w3-margin">hardware type division's </caption>
-			<tr>
-				<th>Input</th><th>Process</th><th>Output</th><th>Storage</th>
-			</tr>
-			<tr><td>keyboard</td><td>microprocessor</td><td>monitor</td><td>floppy Disk</td></tr>
-			<tr>
-				<td>MOUSE</td>
-				<td>RAM/ROM</td>
-				<td>printer</td>
-				<td>HARD DISK</td>
-			</tr>
-			<tr>
-				<td>OCR</td>
-				<td>MOTHERBOARD</td>
-				<td>SPEAKER</td>
-				<td>OPTICAL Disk</td>
-			</tr>
-			<tr>
-				<td>BCR</td>
-				<td rowspan="13"></td>
-				<td>PLOTER</td>
-				<td>CD, DVD, BRD</td>
-			</tr>
-			<tr>
-				<td>OMR</td>
-				<td>PROJECTOR</td>
-				<td>Pen Drive</td>
-			</tr>
-			<tr>
-				<td>Micr</td>
-				<td rowspan="11"></td>
-				<td>Zin Drive</td>
-			</tr>
-			<tr>
-				<td>styles</td>
-				<td>Tap Drive</td>
-			</tr>
-				<td>Scanner</td>
-				<td>Memory Card</td>
-			</tr>
-			<tr>
-				<td>Joy Stick</td>
-			</tr>
-			<tr>
-				<td>webcom</td>
-			</tr>
-			<tr>
-				<td>light Pen</td>
-			</tr>
-			<tr>
-				<td>Track Ball</td>
-			</tr>
-			<tr>
-				<td>TochPad</td>
-			</tr>
-			<tr>
-				<td>Bio Matrics</td>
-			</tr>
-			<tr>
-				<td>Micro Phone</td>
-			</tr>
-			<tr>
-				<td>Touch Screen</td>
-			</tr>
-	</table>
-	
-
-	</div>
-		<h2 class="w3-red w3-text-yellow w3-card-4"> O level M1 ✍️👇<h2>
-		<ul type="square">
-			<li class="w3-border w3-round">all chapter short & fullforms </li>
-			<ol type="1">
-				<li>CPU = CONTROL PROCCESSER UNIT</li>
-				<li>ALU = ARTHMATIC LOGICAL UNIT</li>
-				<li>MU = Memory Unit</li>
-				<li>ICT = Information and comminication Technology</li>
-				<li>GUI = graphical user interface</li>
-				<li>OMR = optical mark reader</li>
-				<li>OCR = optical character recognication </li>
-				<li>MICR = magenetic ink character recognication</li>
-				<li>PDP = persnal data processor</li>
-				<li> LSI= large scale integration</li>
-				<li>VLSI = very large scale intergration</li>
-				<li>AI = artificial intelligence</li>
-				<li>BCR = bar code reader </li>
-				<li>CRT = cathode ray tube (monitor)</li>
-				<li>LCD = lequid crystal display</li>
-				<li>LED = light emmiting diode(semi condcator device)</li>
-				<li>ROM = read only memory</li>
-				<li>BIOS = basic input output system</li>
-				<li>PROM = programmable read only memory</li>
-				<li>EPROM = erassble programmable read only memory</li>
-				<li>EEPROM = electronic erassble programmable read only memory</li>
-				<li>CD = compact disk (600-700 mb store capicity)</li>
-				<li>DVD = digital varsatile disk(philips and sony by 1995. dvd optical disk ka research.<q>max store: 4.7GB</q> )</li>
-				<li>BRD = blu ray disk (25 GB) and double blu ray disc(50 gb store)</li>
-				<li>WWW = world wide web ( not owner but authriser tim berners lee)</li>
-				<li>TCP = transmission control protocol</li>
-				<li>IP = internet protocol </li>
-				<li>ARPANET = <q>advance research project agency network</q> created by defence department start 1974 LAN Arpanet to joint.</li>
-				<li>LAN = local area network </li>
-				<li>WAN = wide area network </li>
-				<li>MAN = metropolitan area network</li>
-				<li>PAN = Personal local area network</li>
-				<li>NIC = network interface card</li>
-				<li>URL = Uniform resourece locator</li>
-				<li>HTML = hyper text markup language </li>
-				<li>CSS = casecading style sheets </li>
-				<li>DNS = doman naming system</li>
-				<li>ISP = internet service provider </li>
-				<li>HTTP = hyper text transfer protocol <q>port 80</q></li>
-				<li>HTTPs = hyper text transfer protocol secure <q>Port 443</q></li>
-				<li>FTP = file transfer protocol (port 21)</li>
-				<li>POP<sub>3</sub> = post office protocol (TCP port worked port 110 <q>mail transfer clint software</q>)</li>
-				<li>SMTP = simple mail transfer protocol (port 25 <q>mail send</q>)</li>
-				<li>UDP = user datagram protocol(not check data desination recieve or not recieve )</li>
-				<li>PPP = point to point protocol (2 nodes with direct relation )</li>
-				<li>TELNET = telnet protocol (one computer to two computer conect <q>Remote login </q>Port 23</li>
-				<li>MAC = media access control (phycal and hardware address)</li>
-				<li>IMEI = international mobile equipment indenty(15 or 17 digit code)</li>
-				<li>CIER = central equipment indenty register(IMEI by blocked )</li>
-				<li>IMAP = internet massage access protocol (web based mail recieve port 143 )</li>
-				<li>CC = corban copy (send mail all show person )</li>
-				<li>BCC = blind corban copy (send mail show only send person </li>
-				<li>ORS = online registration system (ehospital)</li>
-				<li>IRCTC = indian railway catering and tourism corporation </li>
-				<li>UTS= unreserved ticketing system(1 november 2014 lonch railway mantralaya)</li>
-				<li>ODP = out patien Department </li>
-				<li>UMANG = unified mobile app for new age governance (13 language availble lounch november 2017 electronic and information technology mantralaya and Negd by publish)</li>
-				<li>NeGD = national e-governance Division </li>
-				<li>IVR = Intractive Voice Response</li>
-				<li>OTP = one time password (10 minuts only)</li>
-				<li>QR = quick response code (first 1994 japani company denso wave by disigned)</li>
-				<li>UPI = unifiead payment interface(UPI NPCI by 11 april 2016 mumbai RBI by Governance DR. raghuram ji rajan by lounch )</li>
-				<li>NPCI = national payment corporation of india</li>
-				<li>AEPS = adhar enable payment system </li>
-				<li>USSD = unstructured supplymentory service data ( start noveber 2012 GSM protocol. code *99#)</li>
-				<li>SMS = short massage service </li>
-				<li>CVV = card verification value</li>
-				<li>POS = point of sell (start 1879 by jems ritty bill use thermal printer)</li>
-				<li>NEFT = national electronic fund transfer (nation wide payment system start november 2005 RBI through fund transfer limit 16 december 2019 ko 24/7 kar di thi )</li>
-				<li>RBI = reserve bank of india</li>
-				<li>IFSC = indian financial service code<q>11 digital code</q></li>
-				<li>RTGS = real time gross settlement(start march 2014 RBI through<b> minimum amount 2 lakh max no limit </b>morning 8am to evening 6pm service availble<q>2<sup>nd</sup> saturday and 4<sup>th</sup> saturday holiday</q></li>
-				<li>IMPS = immidiat payment service (24/7 availble NPCI by 22 november 2010 lounch RBI authority)</li>
-				<li>PPI = prepaid payment instrument issuers ( money transfer authority recieved 2 type fund transfer <q>1 Baneficiary - name , ac num,ifsc and 2 . MMID or mobile no.</q>)</li>
-				<li>MMID = mobile money identyfier(7 digit bank by created )</li>
-				<li>NASSCOM = national association of software and service compnies (futured skill apgrad one platform lounch 19 february 2018 )</li>		
-				<li>IOT =introduction to internet or things (phycal object network )</li>
-				<li>CMS = CONTENT MANGEMENT SYSTEM</li>
-				<li>IP<sub>V4</sub>Address = 172.16.254.1</li>
-				<li>IP<sub>V6</sub>Address = 2001:odb8:0000:0042:0000:8a2e:037o:7334</li>
-				<li>Mac Address = 80-9E-1D-10-2D-89 , 50:5E:2D:10:4D:28 , 10.2E.2D.10.7D.58 <q>Physical Address</q></li>
-			</ol>
-		</ul>
-			<h3 style="animation:blink 1s infinite; color:red; width:50%; font-weight:bold;"> ports and working port number and defination</h3>
-			<dl>
-				<dt>telnet</dt>
-				<dd>port 23 work and remote login and server computer runing</dd>
-				<dt>SMTP</dt>
-					<dd>SIMPLE MAIL TRANSFER PROTOCOL </dd>
-					<p style="display:inline-block;"><b> More Protocol</b> </p><a href="SAVE.html"style="animation:blink 0.5s infinite;">👉click here...</a>
-			</dl>
-		<p>importent notes downlo</p>
-			<details>
-				<summary>fill inforamtion </summary>
-				<option>radhe</option>
-				<option>shyam </option>
-				<option>kanhaiya</option>
-				<option>ankush</option>
-			</details>
-			<h3>MORE INFORMATION AND JOB RELATED THE VIRISON THE PAGE ARE U FIND </h3>
-			<div>
-				<select name="navigation" size="1">
-					<option>O LEVEL </option>
-					<option>FIND AND REPLACE</option>
-					<option>REPLACE</option>
-					<option>JAI HIND</option>
-				</select>
-
-			<li><a href="ram"><div>Hellow</div></a></li>
-    </body>
 </html>
